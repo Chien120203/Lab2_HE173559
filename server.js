@@ -5,7 +5,7 @@ const httpErrors = require("http-errors");
 const db = require("./models/index_model");
 const { PersonRouter, StoryRouter } = require("./routes/index_routes");
 
-require("dotenv");
+require('dotenv').config();
 
 //init web server 
 const app = express();
